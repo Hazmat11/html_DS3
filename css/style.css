@@ -1,14 +1,29 @@
+@font-face{
+  font-family: OptimusPrincepsSemiBold;
+  src: url(../font/OptimusPrincepsSemiBold.woff2); format(woff2)
+}
+
 body{
   margin:0;
   background-image: url(../img/background.jpg);
   width: 100%;
   background-size: cover;
-  background-repeat: repeat-y;
+  position: fixed;
+  background-repeat:repeat;
 }
 
 .main_img{
   width: 100%;
   border-width: 0px 0px 8px 0px;
   border-style:solid;
-  border-color: black;
+  border-color: #7f642e;
+}
+
+.main_text{
+  color: #181a1b;
+  font-family: OptimusPrincepsSemiBold;
+  text-align: center;
+  text-shadow: 10px 10px 10px #7f642e;
+  line-height: 300px;
+  font-size: 105px;
 }
