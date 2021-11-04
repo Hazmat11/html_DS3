@@ -31,11 +31,7 @@ body{
   text-shadow: 10px 10px 5px #7f642e;
   font-size: 105px;
   position: relative;
-  bottom: 240px;
-}
-
-.background{
-  position: sticky;
-  bottom: 500px;
+  bottom: 325px;
+  margin-bottom: -350px;
   width: 100%;
 }
