@@ -1,6 +1,17 @@
 body{
   margin:0;
-}
-.background_logo{
+  background-image: url(../img/background.jpg);
   width: 100%;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.main_img{
+  width: 100%;
+  border-bottom: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style:solid;
+  border-color: black;
 }
