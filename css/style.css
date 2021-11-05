@@ -12,6 +12,10 @@ body{
   padding: 0%;
 }
 
+body>bef_content{
+  overflow-y: hidden;
+}
+
 a{
   color: inherit;
   text-decoration: none;
