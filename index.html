@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="js/script.js"></script>
     <meta charset="utf-8">
     <title>Dark Souls III Project</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="img\Elden-Ring-E3-2021.jpg">
   </head>
   <body>
-    <div class="border">
+  <div class="first_page" id="section1">
       <div>
         <img class="main_img" src="img/main_img.jpg" alt="">
       </div>
-      <div>
-        <img class="bottom_img" src="img/black.jpg" alt="">
+      <div class="main_text" flex="" style="height: 275px;">
+          <a href="#section2">BEGIN YOUR JOURNEY</a>
       </div>
-      <div class="main_text">
-        BEGIN YOUR JOURNEY
-      </div>
-      <video width="100%" height="100%" loop autoplay muted>
+  </div>
+  <div class="second_page" id="section2">
+      <video class="bonfire" width="1895px" height="929px" loop autoplay muted>
         <source src="img\sommary.mp4" type="video/mp4">
       </video>
-      <div class="sommary_txt">
-        Introduction<br>
-        Description<br>
-        Fonctionnement<br>
-        Lien utiles<br>
+      <div class="sommary_txt" style="width: 750px;">
+        <a href="#intro">INTRODUCTION .I</a><br>
+        <a href="#desc">DESCRIPTION .II</a><br>
+        <a href="#fonct">RULES .III</a><br>
+        <a href="#links">CONTACT .IV</a><br>
       </div>
     </div>
   </body>

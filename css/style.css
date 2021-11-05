@@ -3,49 +3,79 @@
   src: url(../font/OptimusPrincepsSemiBold.woff2); format(woff2)
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   margin:0;
+  padding: 0%;
 }
 
-.border{
-  border-width: 4px 4px 4px 4px;
-  border-style:solid;
-  border-color: #7f642e;
+a{
+  color: inherit;
+  text-decoration: none;
 }
 
-.bottom_img{
-  width: 100%;
-  height: 275px;
-  position: relative;
-  bottom: 6px;
-  margin-bottom: -6px;
-  border-width: 0px 0px 8px 0px;
-  border-style:solid;
-  border-color: #7f642e;
+a:hover{
+  text-shadow: 10px 10px 3px #927334;
 }
 
 .main_img{
   width: 100%;
-  border-width: 0px 0px 8px 0px;
+  height: auto;
   border-style:solid;
   border-color: #7f642e;
+  border-width: 0px 0px 4px 0px;
 }
 
 .main_text{
+  width: 100%;
   color: #e8e6e3;
   font-family: OptimusPrincepsSemiBold;
   text-align: center;
   text-shadow: 10px 10px 5px #7f642e;
-  font-size: 105px;
-  position: relative;
-  bottom: 225px;
-  margin-bottom: -225px;
+  font-size: 6vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .sommary_txt{
   color: #e8e6e3;
   font-family: OptimusPrincepsSemiBold;
-  text-align: center;
   text-shadow: 10px 10px 5px #7f642e;
-  font-size: 70px;
+  font-size: 4vw;
+  position: relative;
+  bottom: 800px;
+  left: 1000px;
+  text-align: center;
+  border-style:solid;
+  border-color: rgba(127, 100, 46, 0.6);
+  border-width: 4px 4px 4px 4px;
+  background-color: rgba(38, 50, 56, 0.40);
+}
+
+.bonfire{
+  object-fit: cover;
+}
+
+.first_page{
+  box-sizing: border-box;
+  width: 1903px;
+  height: 100vh;
+  border-style:solid;
+  border-color: #7f642e;
+  border-width: 4px 4px 4px 4px;
+  background-color: black;
+}
+
+.second_page{
+  box-sizing: border-box;
+  border-style:solid;
+  border-color: #7f642e;
+  border-width: 4px 4px 4px 4px;
+  width: 1903px;
+  height: 100vh;
 }
