@@ -2,35 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Dark Souls III Project</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="img\Elden-Ring-E3-2021.jpg">
   </head>
-  <body>
-  <div class="bef_content" style="height: auto;">
+  <body scroll="no">
+    <div class="cover">
+    </div>
     <div class="first_page" id="section1">
-        <div>
-          <img class="main_img" src="img/main_img.jpg" alt="">
-        </div>
-        <div class="main_text" flex="" style="height: 275px;">
-            <a href="#section2">BEGIN YOUR JOURNEY</a>
-        </div>
+      <div class="background_main">
+      </div>
+      <div class="main_text">
+        <a href="#section2">BEGIN YOUR JOURNEY</a>
+      </div>
     </div>
     <div class="second_page" id="section2">
-        <video class="bonfire" width="1895px" height="929px" loop autoplay muted>
-          <source src="img\sommary.mp4" type="video/mp4">
+      <div class="bonfire">
+        <video loop autoplay muted>
+          <source src="img/sommary.mp4" type="video/mp4">
         </video>
-        <div class="sommary_txt" style="width: 750px;">
-          <a href="#intro">INTRODUCTION .I</a><br>
-          <a href="#desc">DESCRIPTION .II</a><br>
-          <a href="#fonct">RULES .III</a><br>
-          <a href="#links">CONTACT .IV</a><br>
-        </div>
       </div>
-  </div>
-  <div class="content">
-
-  </div>
+      <div class="sommary_txt">
+        <a href="#intro">INTRODUCTION .I</a>
+        <a href="#desc">DESCRIPTION .II</a>
+        <a href="#fonct">RULES .III</a>
+        <a href="#links">CONTACT .IV</a>
+      </div>
+    </div>
+    <div class="introduction" id="intro">
+      <div class="nav">
+        <a href="#section1">< Home</a><br>
+        <a href="#section2">< Back</a><br>
+      </div>
+      <img class="intro-content" src="img/intro-content.jpg" alt="">
+    </div>
   </body>
 </html>
