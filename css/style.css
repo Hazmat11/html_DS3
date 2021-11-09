@@ -12,7 +12,7 @@ body{
   padding: 0%;
 }
 
-body>bef_content{
+.bef_content{
   overflow-y: hidden;
 }
 
