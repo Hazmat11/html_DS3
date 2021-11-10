@@ -31,12 +31,30 @@ a:hover{
   border: 4px #7f642e solid;
 }
 
+.first_page{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
 .background_main{
   background: url("../img/main_img.jpg") #000;
   background-size: cover;
   background-position: right;
   width: 100%;
   height: 70vh;
+}
+
+.h1{
+  font-family: OptimusPrincepsSemiBold;
+  color: white;
+  margin-left: 50%;
+  position: relative;
+  margin-top: -78%;
+  font-size: 3vw;
 }
 
 .main_text{
@@ -64,21 +82,10 @@ a:hover{
   }
 }
 
-.sommary_txt{
-  color: #e8e6e3;
-  font-family: OptimusPrincepsSemiBold;
-  text-shadow: 10px 10px 5px #7f642e;
-  font-size: 4vw;
-  position: relative;
-  top: -100%;
-  width: 50%;
-  height: 100%;
-  margin-left: 50%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: rgba(38, 50, 56, 0.40);
+.second_page{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
 }
 
 .bonfire{
@@ -93,31 +100,44 @@ a:hover{
   min-height: 100%;
 }
 
-.first_page{
-  box-sizing: border-box;
-  width: 100%;
-  height: 100vh;
-  background-color: black;
+.summary_txt{
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  text-shadow: 10px 10px 5px #7f642e;
+  font-size: 4vw;
+  position: relative;
+  top: -70%;
+  width: 50%;
+  margin-left: 45%;
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: rgba(38, 50, 56, 0.4);
+  border: 4px #7f642e solid;
 }
 
-.second_page{
-  box-sizing: border-box;
-  width: 100%;
-  height: 100vh;
+.nav1{
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  text-shadow: 10px 10px 5px #7f642e;
+  font-size: 60px;
+  margin-left: 20px;
+  width: 750px;
+  top: -146%;
+  position: relative;
 }
 
 .introduction{
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
-  background-image:url(https://wallpaperaccess.com/full/2995428.jpg);
+  background-image: url(../img/third_page.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.nav{
+.nav2{
   color: #e8e6e3;
   font-family: OptimusPrincepsSemiBold;
   text-shadow: 10px 10px 5px #7f642e;
@@ -126,11 +146,255 @@ a:hover{
   width: 750px;
 }
 
+.flex_intro{
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-left: 13%;
+  margin-right: 23%
+}
+
+.intro_txt{
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 1.2vw;
+  width: 38%;
+  background-color: rgba(38, 50, 56, 0.6);
+  border: 4px #7f642e solid;
+  align-self: center;
+  margin-left: -500px;
+}
+
 .intro-content{
   width: 700px;
   height: 450px;
+  opacity: 0.8;
+}
+
+.nav3{
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  text-shadow: 10px 10px 5px #7f642e;
+  font-size: 60px;
+  margin-left: 20px;
+  width: 750px;
+  margin-top: 6%;
+}
+
+.purpose{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/third_page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.flex_purpose{
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  margin-left: 23%;
+  margin-right: 13%
+}
+
+.purpose_txt{
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 1.3vw;
+  width: 32%;
+  background-color: rgba(38, 50, 56, 0.6);
+  border: 4px #7f642e solid;
+  align-self: center;
+  margin-left: 50px;
+}
+
+.purpose-content{
+  width: 700px;
+  height: 450px;
+  opacity: 0.8;
+}
+
+.trials{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/third_page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.flex_trials{
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  margin-left: 13%;
+  margin-right: 23%
+}
+
+.trials-content{
+  width: 700px;
+  height: 450px;
+  opacity: 0.8;
+}
+
+.trials_txt{
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 1.2vw;
+  width: 38%;
+  background-color: rgba(38, 50, 56, 0.6);
+  border: 4px #7f642e solid;
+  align-self: center;
+}
+
+.weaponry{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/third_page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.flex_weap{
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  margin-left: 23%;
+  margin-right: 13%
+}
+
+.weap_txt{
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 1.3vw;
+  width: 32%;
+  background-color: rgba(38, 50, 56, 0.6);
+  border: 4px #7f642e solid;
+  align-self: center;
+  margin-left: 50px
+}
+
+.weapon-content{
+  width: 700px;
+  height: 450px;
+  opacity: 0.8;
+}
+
+.gameplay{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/third_page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gameplay_embed{
+  width: 850px;
+  height: 500px;
+  border: 4px #7f642e solid;
   position: relative;
-  top: 140px;
-  left: 200px;
-  opacity: 0.9;
+  margin-top: -8%;
+  margin-left: 28%;
+}
+
+.iframe{
+  width: 850px;
+  height: 500px;
+  border: 2px #7f642e;
+}
+
+.flex_contact{
+  margin-top: 2%;
+  width: 100%;
+  height: 38vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact{
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-right: 10px;
+  border-color: #DCDCDC;
+  background-color: #2F4F4F;
+  padding: 10px;
+  width: 70%
+}
+
+label{
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 0.9vw;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  resize: vertical;
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 0.7vw;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+option{
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 0.7vw;
+}
+
+.textarea{
+  height: 100px;
+}
+
+.redirect{
+  border-radius: 5px;
+  background-color: #2F4F4F;
+  border-left: #DCDCDC
+  padding: 10px;
+  width: 30%;
+}
+
+.flex_link{
+  display: flex;
+  flex-direction: column;
+  height: 36vh;
+  margin-left: 23%;
+}
+
+.button_link{
+  height: 100%;
+  width: 70%;
+}
+
+.redirect_img{
+  height: 86%;
+  margin-top: 2%
+}
+
+.button_txt{
+  font-family: OptimusPrincepsSemiBold;
+  font-size: 1.2vw;
+  margin-left: 20%;
 }
