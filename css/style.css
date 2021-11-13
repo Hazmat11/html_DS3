@@ -164,6 +164,7 @@ a:hover{
   border: 4px #7f642e solid;
   align-self: center;
   margin-left: -500px;
+  padding: 5px;
 }
 
 .intro-content{
@@ -209,6 +210,7 @@ a:hover{
   border: 4px #7f642e solid;
   align-self: center;
   margin-left: 50px;
+  padding: 5px;
 }
 
 .purpose-content{
@@ -249,6 +251,7 @@ a:hover{
   background-color: rgba(38, 50, 56, 0.6);
   border: 4px #7f642e solid;
   align-self: center;
+  padding: 5px;
 }
 
 .weaponry{
@@ -258,6 +261,71 @@ a:hover{
   background-image: url(../img/third_page.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.openNav{
+  font-size: 50px;
+  color: #e8e6e3;
+  font-family: OptimusPrincepsSemiBold;
+  text-shadow: 10px 10px 5px #7f642e;
+  position: absolute;
+  right: 20px;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(38, 50, 56, 0.6);
+  border: 4px #7f642e solid;
+  align-self:  center;
+  padding: 5px;
+}
+
+.img_gallery{
+  text-align: center;
+}
+
+.bottom_img_gallery{
+  position: relative;
+  bottom: 60px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100vh; /* 100% Full-height */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #313131; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 .flex_weap{
@@ -277,7 +345,7 @@ a:hover{
   background-color: rgba(38, 50, 56, 0.6);
   border: 4px #7f642e solid;
   align-self: center;
-  margin-left: 50px
+  padding: 5px;
 }
 
 .weapon-content{
