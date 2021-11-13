@@ -4,39 +4,152 @@
     <script src="js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Dark Souls III Project</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="img\Elden-Ring-E3-2021.jpg">
+    <link rel="icon" type="image/png" href="img/Elden-Ring-E3-2021.jpg">
+    <title>Dark Souls 3 - Fanmade Site</title>
+    <meta name="description" content="A fanmade Dark Souls 3 presentation website made to show people what the game is like.">
   </head>
-  <body scroll="no">
+  <body>
     <div class="cover">
     </div>
-    <div class="first_page" id="section1">
+    <div class="first_page" id="banner">
       <div class="background_main">
       </div>
       <div class="main_text">
-        <a href="#section2">BEGIN YOUR JOURNEY</a>
+        <a href="#summary">BEGIN YOUR JOURNEY</a>
       </div>
     </div>
-    <div class="second_page" id="section2">
+    <div class="second_page" id="summary">
       <div class="bonfire">
         <video loop autoplay muted>
-          <source src="img/sommary.mp4" type="video/mp4">
+          <source src="img/summary.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="sommary_txt">
-        <a href="#intro">INTRODUCTION .I</a>
-        <a href="#desc">DESCRIPTION .II</a>
-        <a href="#fonct">RULES .III</a>
-        <a href="#links">CONTACT .IV</a>
+      <div class="summary_txt">
+        <a href="#intro">World introduction .I</a>
+        <a href="#purpose">Your purpose .II</a>
+        <a href="#trials">Future trials .III</a>
+        <a href="#weap">Weaponry .IV</a>
+        <a href="#gameplay">Game/Contact .V</a>
+      </div>
+      <div class="nav1">
+        <a href="#banner">&lt; Home</a>
+      </div>
+      <div class="h1">
+        <h1>Dark Souls 3</h1>
       </div>
     </div>
     <div class="introduction" id="intro">
-      <div class="nav">
-        <a href="#section1">< Home</a><br>
-        <a href="#section2">< Back</a><br>
+      <div class="nav2">
+        <a href="#banner">&lt; Home</a><br>
+        <a href="#summary">&lt; Summary</a><br>
       </div>
-      <img class="intro-content" src="img/intro-content.jpg" alt="">
+      <div class="flex_intro">
+        <img class="intro-content" src="img/landscape.jpg" alt="Dark Souls 3 landscape">
+        <div class="intro_txt">
+          Welcome to a world filled with sickness and misery. The Kingdom of Lothric is currently in great peril, for the primordial flame is fading and the lords of cinder refuse to fulfill their duty of offering themselves to the flame for rekindling. If the flame was to fade completely, an age of darkness would befall the Kingdom of Lothric.
+        </div>
+      </div>
+      <div class="nav3">
+        <a href="#purpose">&lt; Next</a>
+      </div>
+    </div>
+    <div class="purpose" id="purpose">
+      <div class="nav2">
+        <a href="#banner">&lt; Home</a><br>
+        <a href="#summary">&lt; Summary</a><br>
+        <a href="#intro">&lt; Back</a><br>
+      </div>
+      <div class="flex_purpose">
+        <div class="purpose_txt">
+          Please awaken from your slumber, unkindled, and take on the mission to bring back the lords of cinder scattered around the kingdom. But fear not those powerful beings, for death is but another opportunity for your undead body to arise from ashes.
+        </div>
+        <img class="purpose-content" src="img/unkindled.jpg" alt="Dark Souls 3 unkindled">
+      </div>
+      <div class="nav3">
+        <a href="#trials">&lt; Next</a>
+      </div>
+    </div>
+    <div class="trials" id="trials">
+      <div class="nav2">
+        <a href="#banner">&lt; Home</a><br>
+        <a href="#summary">&lt; Summary</a><br>
+        <a href="#purpose">&lt; Back</a>
+      </div>
+      <div class="flex_trials">
+        <img class="trials-content" src="img/trials.jpg" alt="Dark Souls 3 boss fight">
+        <div class="trials_txt">
+          However, your journey will still be met with harsh challenges you will have to overcome, be it in the form of hordes of enemies or mighty foes who will block your path. You may have to slash, bash and roll if you wish to pass those trials. Perhaps your choices will grant you some allies along the road.
+        </div>
+      </div>
+      <div class="nav3">
+        <a href="#weap">&lt; Next</a>
+      </div>
+    </div>
+    <div class="weaponry" id="weap">
+      <div class="nav2">
+        <a href="#banner">&lt; Home</a><br>
+        <a href="#summary">&lt; Summary</a><br>
+        <a href="#trials">&lt; Back</a><br>
+      </div>
+      <div class="flex_weap">
+        <div class="weap_txt">
+          Throughout your journey you will have the opportunity to choose from a wide variety of weapons ranging from simple longswords to powerful magic imbued greatswords and magic arts belonging to sorcery, miracles or even pyromancy.
+        </div>
+        <img class="weapon-content" src="img/weap.jpg" alt="Dark Souls 3 weapon display">
+      </div>
+      <div class="nav3">
+        <a href="#gameplay">&lt; Next</a>
+      </div>
+    </div>
+    <div class="gameplay" id="gameplay">
+      <div class="nav2">
+        <a href="#banner">&lt; Home</a><br>
+        <a href="#summary">&lt; Summary</a><br>
+        <a href="#weap">&lt; Back</a><br>
+      </div>
+      <div class="gameplay_embed">
+        <iframe class="iframe" src="https://www.youtube.com/embed/oX0cvtjKt9E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="flex_contact">
+        <div class="contact">
+          <form action="index.html">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your name ..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name ..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="France">France</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="USA">USA</option>
+              <option value="Germany">Germany</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Italy">Italy</option>
+              <option value="Spain">Spain</option>
+              <option value="Belgium">Belgium</option>
+              <option value="Australia">Australia</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Shortly explain your need .."></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="redirect">
+          <div class="flex_link">
+            <a class="button_link" href="https://www.bandainamcoent.com/games/dark-souls-iii" rel="nofollow">
+              <img class="redirect_img" src="img/logo.png" alt="Dark Souls 3 Official Site link">
+              <div class="button_txt">
+                Official Site Link
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
