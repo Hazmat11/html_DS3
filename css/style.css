@@ -6,15 +6,8 @@
 body{
   margin:0;
   padding: 0%;
-<<<<<<< HEAD
-}
-
-.bef_content{
-  overflow-y: hidden;
-=======
   overflow: hidden;
   position: relative;
->>>>>>> 45ad83e9f2c33646603592aefdc86529889e0c47
 }
 
 a{
